@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headLinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+              <!-- left side div -->
+              <div class="col-md-12 col-12 main_header_left align-items-center">
+                <span class="err">
+                <figure>
+                    <img src="Images/404.jpg" alt="Vinit" class="img-fluid" title="Vinit Pundeer">
+                </figure>
+                 <p>Welcome to the Vinit Weather World!!</p>
+                 <h1>{{errMsg}}</h1>
+                 <a href="/"><button>Go back</button></a>
+                 </span>
+              </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Footer div -->
+    {{>footer}}
+</body>
+</html>
